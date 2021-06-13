@@ -21,6 +21,9 @@ const ContactPage = ({
         </div>
         <div>
           <form className="form-container" data-netlify="true" method="post">
+          <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
             <div>
               <label htmlFor="w3lName">Name</label>
               <input type="text" name="w3lName" id="w3lName"/>

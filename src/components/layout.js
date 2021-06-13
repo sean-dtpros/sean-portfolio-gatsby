@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Technosheen &bull;</p>
+        <p>&copy; {new Date().getFullYear()} Technosheen</p>
       </footer>
     </div>
   )
