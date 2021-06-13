@@ -20,10 +20,7 @@ const ContactPage = ({
           <p>Let me help you kick start your next project &rarr;</p>
         </div>
         <div>
-          <form className="form-container" data-netlify="true" method="post">
-          <p class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-          </p>
+          <form className="form-container" data-netlify-recaptcha="true" data-netlify="true" method="post">
             <div>
               <label htmlFor="w3lName">Name</label>
               <input type="text" name="w3lName" id="w3lName"/>
@@ -40,6 +37,7 @@ const ContactPage = ({
               <label htmlFor="w3lMessage">Message</label>
               <textarea name="w3lMessage" id="w3lMessage"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
             </div>
