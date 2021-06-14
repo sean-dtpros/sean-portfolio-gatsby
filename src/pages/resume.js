@@ -14,7 +14,7 @@ const ResumePage = ({
         <title>Resume — {site.siteMetadata.title}</title>
         <meta name="description" content={"Resume page of " + site.siteMetadata.description} />
       </Helmet>
-      <div className="two-grids -resume">
+      <div className="grid">
         
       </div>
     </Layout>
