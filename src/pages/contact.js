@@ -24,6 +24,7 @@ const ContactPage = ({
             <div>
               <label htmlFor="w3lName">Name</label>
               <input type="text" name="w3lName" id="w3lName"/>
+              <input type="hidden" name="form-name" value="contact_me" />
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
