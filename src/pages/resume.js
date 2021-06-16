@@ -15,7 +15,8 @@ const ResumePage = ({
         <meta name="description" content={"Resume page of " + site.siteMetadata.description} />
       </Helmet>
       <div className="grid">
-        
+        <h2>DT Professional Services</h2>
+        <h3>AEM Developer</h3>
       </div>
     </Layout>
   )
