@@ -23,7 +23,7 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>
-      <h2>Featured Projects..Coming Soon! &darr;</h2>
+      <h2>Coming Soon... &darr;</h2>
       <div className="grids">
         {Posts}
       </div>
